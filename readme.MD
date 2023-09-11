@@ -1,3 +1,17 @@
+## running script for submit flag 
+```
+./submit_flag.py "random-hex" 
+# or
+python3 submit_flag.py "random-hex"
+```
+
+## running script for get list ip player
+```
+./list_player.py 
+# list only ip 
+./list_player.py ip
+```
+
 ## running tool on background and redirect the output
 ```
 ping -c5 8.8.8.8 > temp/output.log 2>&1 &
@@ -24,3 +38,5 @@ python -m SimpleHTTPServer 80
 ```
 https://gtfobins.github.io/
 ```
+
+
