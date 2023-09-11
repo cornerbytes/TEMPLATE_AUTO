@@ -6,7 +6,7 @@ import sys
 URL = "https://ctf-gemastik.ub.ac.id/api/flag"
 TOKEN = "XXXXX"
 HEADERS = {
-    'Authorization': 'token {}'.format(TOKEN),
+    'Authorization': '{}'.format(TOKEN),
     'Content-Type': 'application/json',
 }
 
